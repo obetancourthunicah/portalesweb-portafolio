@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Portafolio</title>
+    <style>
+        .bg-p-cover {
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: 150%;
+            background-image: url("imgs/bg_sm.jpg");
+            animation: bganimate 60s infinite;
+        }
+        
+        .nav-link {
+            color: #fff;
+            border-bottom: 0.25rem solid rgba(255, 255, 255, 0.0);
+            transition: border-bottom 0.5s;
+        }
+        
+        .nav-link:hover {
+            color: #fff;
+            border-bottom: 0.25rem solid rgba(255, 255, 255, 0.7);
+        }
+        
+        @media (min-width:768px) {
+            .bg-p-cover {
+                background-size: 100%;
+                background-image: url("imgs/bg_md.jpg");
+            }
+        }
+        
+        @media (min-width:1200px) {
+            .bg-p-cover {
+                background-image: url("imgs/bg_lg.jpg");
+            }
+        }
+        
+        @keyframes bganimate {
+            50% {
+                background-position: top right;
+            }
+        }
+    </style>
+</head>
+
+<body class="d-flex vh-100 text-center">
+    <div class="cover-container d-flex w-100 h-100 flex-column text-white bg-dark justify-content-between bg-p-cover">
+        <header class="p-3 p-sm-5 p-md-4 p-lg-4 p-xl-5">
+            <h1 class="float-md-start">Web II Portafolio</h1>
+            <nav class="nav nav-masthead justify-content-evenly float-md-end">
+                <a href class="nav-link">Inicio</a>
+                <a href class="nav-link">Proyectos</a>
+            </nav>
+        </header>
+        <main class="d-flex flex-column align-items-center justify-content-center">
+            <img alt="Orlando J Betancourth" src="imgs/avatar.jpg" class="m-3 rounded-circle dflex shadow-lg" style="width:200px; height:200px" />
+            <h2 class="p-3">Orlando J Betancourth A</h2>
+        </main>
+        <footer class="p-3">
+            <em>Desarrollo de Portales Web II 2021</em>
+        </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+
+</html>
