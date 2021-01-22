@@ -1,0 +1,55 @@
+        .bg-p-cover {
+            background-position: bottom;
+            background-repeat: no-repeat;
+            background-size: 150%;
+            background-image: url("../imgs/bg_sm.jpg");
+            animation: bganimate 60s 1;
+        }
+        
+h2.card-title{
+  font-size:1.5rem;
+}
+
+        .nav-link {
+            color: #fff;
+            border-bottom: 0.25rem solid rgba(255, 255, 255, 0.0);
+            transition: border-bottom 0.5s;
+        }
+        
+        .nav-link:hover {
+            color: #fff;
+            border-bottom: 0.25rem solid rgba(255, 255, 255, 0.7);
+        }
+        
+        @media (min-width:768px) {
+            .bg-p-cover {
+                background-size: 100%;
+                background-image: url("../imgs/bg_md.jpg");
+            }
+        }
+        
+        @media (min-width:1200px) {
+            .bg-p-cover {
+                background-image: url("../imgs/bg_lg.jpg");
+            }
+        }
+        
+        @keyframes bganimate {
+            50% {
+                background-position: top right;
+            }
+        }
+
+ .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
