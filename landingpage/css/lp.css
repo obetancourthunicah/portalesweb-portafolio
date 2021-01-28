@@ -1,0 +1,24 @@
+header div.hero {
+  background-image: url("../imgs/bgs.jpg");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 4em;
+  text-align:center;
+  text-shadow: 1px 1px #fff;
+}
+
+@media (min-width: 768px) {
+        header div.hero {
+            background-image: url("../imgs/bgm.jpg");
+            min-height: 80vh;
+        }
+      }
+
+@media (min-width: 992px) {
+        header div.hero {
+            background-image: url("../imgs/bgl.jpg");
+        }
+      }
