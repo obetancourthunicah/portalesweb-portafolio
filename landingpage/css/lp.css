@@ -5,15 +5,33 @@ header div.hero {
   background-size: cover;
   min-height: 50vh;
   font-family: 'Kaushan Script', cursive;
-  font-size: 4em;
   text-align:center;
+
+}
+
+div.hero .title{
+  font-size:3rem;
   text-shadow: 1px 1px #fff;
 }
+
+.card img{
+  width:100%;
+}
+
 
 @media (min-width: 768px) {
         header div.hero {
             background-image: url("../imgs/bgm.jpg");
             min-height: 80vh;
+        }
+
+        div.hero .title{
+          font-size:6rem;
+          text-shadow: 3px 3px 3px #fff;
+          background-color: rgba(255,255,255,0.3);
+          padding:0.7em;
+          width:100%;
+          
         }
       }
 
