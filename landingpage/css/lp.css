@@ -4,13 +4,16 @@ header div.hero {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 50vh;
-  font-family: 'Kaushan Script', cursive;
+  
   text-align:center;
 
 }
-
-div.hero .title{
-  font-size:3rem;
+header div.hero div{
+   min-height: 50vh;
+}
+.title{
+  font-family: 'Kaushan Script', cursive;
+  font-size:2rem;
   text-shadow: 1px 1px #fff;
 }
 
@@ -18,14 +21,20 @@ div.hero .title{
   width:100%;
 }
 
-
+form {
+  font-size:1rem !important;
+}
 @media (min-width: 768px) {
         header div.hero {
             background-image: url("../imgs/bgm.jpg");
             min-height: 80vh;
         }
 
-        div.hero .title{
+
+        form{
+          font-size:2rem !important;
+        }
+        .title{
           font-size:6rem;
           text-shadow: 3px 3px 3px #fff;
           background-color: rgba(255,255,255,0.3);
@@ -38,5 +47,10 @@ div.hero .title{
 @media (min-width: 992px) {
         header div.hero {
             background-image: url("../imgs/bgl.jpg");
+        }
+         .title{
+          max-width:1024px;
+          margin:1em auto;
+          
         }
       }
