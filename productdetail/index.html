@@ -30,26 +30,32 @@
             <ul class="orbit-container">
                 <button class="orbit-previous"><span class="show-for-sr">Anterior</span>&#9664;</button>
                 <button class="orbit-next"><span class="show-for-sr">Siguiente</span>&#9654;</button>
-                <li class="orbit-slide is-active">
+                <li class="orbit-slide is-active text-center">
                     <figure class="orbit-figure">
                         <picture>
-                            <img src="https://placehold.it/1200x750" alt="PlaceHolder Img 1" />
+                            <source srcset="https://placehold.it/1200x640" media="(min-width:1200px)" />
+                            <source srcset="https://placehold.it/1024x520" media="(min-width:700px)" />
+                            <img src="https://placehold.it/480x320" alt="PlaceHolder Img 1" />
                         </picture>
                         <figcaption class="orbit-caption">Título de Figura 1</figcaption>
                     </figure>
                 </li>
                 <li class="orbit-slide">
-                    <figure class="orbit-figure">
+                    <figure class="orbit-figure text-center">
                         <picture>
-                            <img src="https://placehold.it/1200x750" alt="PlaceHolder Img 1" />
+                            <source srcset="https://placehold.it/1200x640" media="(min-width:1200px)" />
+                            <source srcset="https://placehold.it/1024x520" media="(min-width:700px)" />
+                            <img src="https://placehold.it/480x320" alt="PlaceHolder Img 2" />
                         </picture>
                         <figcaption class="orbit-caption">Título de Figura 2</figcaption>
                     </figure>
                 </li>
                 <li class="orbit-slide">
-                    <figure class="orbit-figure">
+                    <figure class="orbit-figure text-center">
                         <picture>
-                            <img src="https://placehold.it/1200x750" alt="PlaceHolder Img 1" />
+                            <source srcset="https://placehold.it/1200x640" media="(min-width:1200px)" />
+                            <source srcset="https://placehold.it/1024x520" media="(min-width:700px)" />
+                            <img src="https://placehold.it/480x320" alt="PlaceHolder Img 3" />
                         </picture>
                         <figcaption class="orbit-caption">Título de Figura 3</figcaption>
                     </figure>
@@ -68,61 +74,134 @@
             </nav>
         </section>
 
-        <section class="row column text-center" style="margin-top:3em">
+        <section class="grid-container text-center margin-top-3">
             <h2>Nuevos Productos</h2>
             <hr/>
-            <div class="row small-up-2 large-up-4">
-                <div class="column">
-                    <div class="card">
-                        <img class="card-image" src="https://placehold.it/300x400" />
+            <div class="grid-x grid-margin-x small-up-2 large-up-4">
+                <div class="cell">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://placehold.it/300x350" />
                         <div class="card-divider">Producto 1 Nuevo</div>
                         <div class="card-section">
 
-                            <div class="text-right text-bold">L400.00</div>
-                            <a href class="button expanded">Comprar</a>
+                            <div class="text-right margin-bottom-1"><strong>L400.00</strong></div>
+                            <div><a href class="button expanded">Comprar</a></div>
                         </div>
                     </div>
                 </div>
-                <div class="column">
-                    <div class="card">
-                        <img class="card-image" src="https://placehold.it/300x400" />
-                        <div class="card-divider">Producto 1 Nuevo</div>
+                <div class="cell">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://placehold.it/300x350" />
+                        <div class="card-divider">Producto 2 Nuevo</div>
                         <div class="card-section">
 
-                            <div class="text-right text-bold">L400.00</div>
-                            <a href class="button expanded">Comprar</a>
+                            <div class="text-right margin-bottom-1"><strong>L400.00</strong></div>
+                            <div><a href class="button expanded">Comprar</a></div>
                         </div>
                     </div>
                 </div>
-                <div class="column">
-                    <div class="card">
-                        <img class="card-image" src="https://placehold.it/300x400" />
-                        <div class="card-divider">Producto 1 Nuevo</div>
+                <div class="cell">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://placehold.it/300x350" />
+                        <div class="card-divider">Producto 3 Nuevo</div>
                         <div class="card-section">
 
-                            <div class="text-right text-bold">L400.00</div>
-                            <a href class="button expanded">Comprar</a>
+                            <div class="text-right margin-bottom-1"><strong>L400.00</strong></div>
+                            <div><a href class="button expanded">Comprar</a></div>
                         </div>
                     </div>
                 </div>
-                <div class="column">
-                    <div class="card">
-                        <img class="card-image" src="https://placehold.it/300x400" />
-                        <div class="card-divider">Producto 1 Nuevo</div>
+                <div class="cell">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://placehold.it/300x350" />
+                        <div class="card-divider">Producto 4 Nuevo</div>
                         <div class="card-section">
 
-                            <div class="text-right text-bold">L400.00</div>
-                            <a href class="button expanded">Comprar</a>
+                            <div class="text-right margin-bottom-1"><strong>L400.00</strong></div>
+                            <div><a href class="button expanded ">Comprar</a></div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="row column large-up-3">
-          <div class="column text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laborum sequi rem. Dolores, atque assumenda facilis consectetur enim alias quidem. Soluta doloribus beatae corrupti suscipit vero quis sunt deserunt eaque?
-          </div>
 
+
+        <section <section class="grid-container-fluid text-center margin-top-3 padding-1">
+            <h2>Productos más Vendidos</h2>
+            <hr/>
+            <section class="grid-x grid-margin-x small-up-2 medium-up-4 large-up-6">
+                <div class="cell">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://placehold.it/200x200" />
+                        <div class="card-divider">Producto 1+ Vendido</div>
+                        <div class="card-section">
+                            <div class="text-right margin-bottom-1"><strong>L200.00</strong></div>
+                            <div><a href class="button expanded ">Comprar</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://placehold.it/200x200" />
+                        <div class="card-divider">Producto 2+ Vendido</div>
+                        <div class="card-section">
+                            <div class="text-right margin-bottom-1"><strong>L200.00</strong></div>
+                            <div><a href class="button expanded ">Comprar</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://placehold.it/200x200" />
+                        <div class="card-divider">Producto 3+ Vendido</div>
+                        <div class="card-section">
+                            <div class="text-right margin-bottom-1"><strong>L200.00</strong></div>
+                            <div><a href class="button expanded ">Comprar</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://placehold.it/200x200" />
+                        <div class="card-divider">Producto 4+ Vendido</div>
+                        <div class="card-section">
+                            <div class="text-right margin-bottom-1"><strong>L200.00</strong></div>
+                            <div><a href class="button expanded ">Comprar</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell medium-offset-3 large-offset-0">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://placehold.it/200x200" />
+                        <div class="card-divider">Producto 5+ Vendido</div>
+                        <div class="card-section">
+                            <div class="text-right margin-bottom-1"><strong>L200.00</strong></div>
+                            <div><a href class="button expanded ">Comprar</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cell">
+                    <div class="card shadow">
+                        <img class="card-image" src="https://placehold.it/200x200" />
+                        <div class="card-divider">Producto 6+ Vendido</div>
+                        <div class="card-section">
+                            <div class="text-right margin-bottom-1"><strong>L200.00</strong></div>
+                            <div><a href class="button expanded ">Comprar</a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+        <section class="grid-container text-center margin-top-3">
+            <h2>Productos de Temporada</h2>
+            <hr/>
+            <section class="grid-container grid-margin-x small-up-1 medium-up-3">
+              <div class="cell">
+                <img alt="temporada" src="https://placehold.it/150x150" class="thumbnail"/>
+              </div>
+            </section>
         </section>
 
     </main>
