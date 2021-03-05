@@ -1,7 +1,7 @@
-function FormField({ type, id, fname, onChange, caption, value, error, ...attr}){
+function FormField({ type, id, fname, onChange, caption, value, error, labelClassName, containerClassName, ...attr}){
   return (
-    <section>
-    <label>{caption}</label>
+    <section className={containerClassName}>
+    <label className={labelClassName}>{caption}</label>
     <input
         type={type}
         id={id}
