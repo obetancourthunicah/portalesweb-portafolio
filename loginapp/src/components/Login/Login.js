@@ -11,7 +11,6 @@ function Login(){
     passwordError: ""
   });
 
-  const _self = this;
   const myOnChange = function(e){
     const { name, value } = e.currentTarget;
     //validaciones

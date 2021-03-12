@@ -24,8 +24,8 @@ function TodoListItem({descripcion, id, fb_id, completed, doneHandler, deleteHan
     <li style={styles}>
     <span className={myClass}>{descripcion}</span>
     <span className="flex">
-    <MdDone size="1.5em" onClick={onClick}></MdDone>
-    <MdDelete size="1.5em" onClick={onDeleteClick}></MdDelete>
+    <MdDone style={{"cursor":"pointer","padding":"0.5rem"}} size="2.5em" onClick={onClick}></MdDone>
+    <MdDelete style={{ "cursor": "pointer", "padding": "0.5rem" }} size="2.5em" onClick={onDeleteClick}></MdDelete>
     </span>
   </li>);
 }

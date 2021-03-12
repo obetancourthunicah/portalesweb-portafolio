@@ -15,7 +15,7 @@ function NewTodo({ onChange, value, onAddNew}){
           className="flex-grow p-2 m-2 w-5/6 bg-white shadow"
           labelClassName="w-5/6 font-bold"
           containerClassName="flex-grow items-center"
-          onKeyUp={(e) => { if (e.keyCode == 13) { onAddNew(e);} }}
+          onKeyUp={(e) => { if (e.keyCode === 13) { onAddNew(e);} }}
         />
         <MdAdd size={"3rem"} onClick={onAddNew}></MdAdd>
       </section>
