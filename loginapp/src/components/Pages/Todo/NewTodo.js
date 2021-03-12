@@ -12,9 +12,9 @@ function NewTodo({ onChange, value, onAddNew}){
           onChange={onChange}
           value={value}
           caption="Nuevo Todo"
-          className="flex p-2 m-2 w-5/6 bg-white shadow"
-          labelClassName="flex w-5/6"
-          containerClassName="flex"
+          className="flex-grow p-2 m-2 w-5/6 bg-white shadow"
+          labelClassName="w-5/6 font-bold"
+          containerClassName="flex-grow items-center"
           onKeyUp={(e) => { if (e.keyCode == 13) { onAddNew(e);} }}
         />
         <MdAdd size={"3rem"} onClick={onAddNew}></MdAdd>
